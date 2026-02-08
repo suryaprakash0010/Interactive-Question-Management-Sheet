@@ -1,0 +1,25 @@
+{
+  "name": "question-management-sheet",
+  "version": "1.0.0",
+  "description": "Finished MERN project for managing topics, subtopics, and questions",
+  "private": true,
+  "scripts": {
+    "install-deps": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"cd backend && npm start\" \"cd frontend && npm start\"",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm start",
+    "build": "cd frontend && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "mongodb",
+    "mern",
+    "drag-and-drop"
+  ],
+  "author": "",
+  "license": "MIT"
+}
