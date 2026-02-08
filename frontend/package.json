@@ -38,6 +38,7 @@
       "last 1 safari version"
     ]
   },
+  
   "devDependencies": {
     "tailwindcss": "^3.3.6",
     "autoprefixer": "^10.4.16",
@@ -45,3 +46,6 @@
   },
   "proxy": "http://localhost:5000"
 }
+
+ 
+
